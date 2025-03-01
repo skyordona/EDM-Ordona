@@ -5,5 +5,5 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 ## STEP 1 Data Cleaning process
 ![screenshot](image/CLEAN.png)
 ## STEP 2 Normalization
-
+![screenshot](image/Normalization.png)
 ## STEP 3 Here's the screenshot of my output before I started data cleaning (See screenshot)

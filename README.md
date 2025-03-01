@@ -10,4 +10,4 @@ I'm Sky, an Information System College Student at City College Angeles
 • Junior High School & Elementary: Malabanias Integrated School
 
 ## My Projects
-Midterm Lab Task 1:
+• Midterm Lab Task 1:

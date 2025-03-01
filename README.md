@@ -5,9 +5,9 @@ Compilation of EDM works
 I'm Sky, an Information System College Student at City College Angeles
 
 ## Education
-College: City College of Angeles - Bachelor of Science in Information System
-Senior High School: Malabanias Integrated School - Information Communication and Technology
-Junior High School & Elementary: Malabanias Integrated School
+• College: City College of Angeles - Bachelor of Science in Information System
+• Senior High School: Malabanias Integrated School - Information Communication and Technology
+• Junior High School & Elementary: Malabanias Integrated School
 
 ## My Projects
 Midterm Lab Task 1:

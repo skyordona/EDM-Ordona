@@ -11,4 +11,4 @@ I'm Sky, an Information System College Student at City College Angeles
 
 ## My Projects
 • Midterm Lab Task 1:
-[Data Cleaning and Preparation](Midterm%20Task/README.md)
+[Data Cleaning and Preparation](Midterm%20Tasks/README.md)

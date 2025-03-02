@@ -2,11 +2,11 @@
 
 For this task we are given a Flat data from Excel (See rawfile) and we are Task to perform Data CLeaning and Preparation
 
-## STEP 1 Here's the screenshot of the raw data (See screenshot)
+## STEP 1 Raw Data (See screenshot)
 ![screenshot](image/Raw.png)
-## STEP 2 Here's the screenshot of my output after I started data cleaning (See screenshot)
+## STEP 2 Clean Data (See screenshot)
 ![screenshot](image/CLEAN.png)
-## STEP 3 Here's the screenshot of the normalization (See screenshot)
+## STEP 3 Normalization (See screenshot)
 ![screenshot](image/Normalization.png)
-## STEP 4 Here's the screenshot of the data model (See screenshot)
+## STEP 4 Data Model (See screenshot)
 ![screenshot](image/DATAMODEL.png)

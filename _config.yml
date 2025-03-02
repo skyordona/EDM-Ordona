@@ -1,1 +1,5 @@
-
+title: Sky Ordona
+#logo: /assets/img/
+#description: A portfolio for EDM
+showdown_downloads: true
+theme: jekyll-theme-minimal

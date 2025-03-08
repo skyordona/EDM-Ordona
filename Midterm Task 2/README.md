@@ -110,7 +110,7 @@ This portfolio demonstrates the process of data cleaning and preparation using P
 ![screenshot](image/raw.png)
 
 ### Here's the code proof for my cleaning of data
-![screenshot](image/raw.png)
+![screenshot](image/APPLIED.png)
 ```
 let
     Source = Excel.Workbook(File.Contents("C:\Users\COMLAB\Downloads\ZEB.xlsx"), null, true),

@@ -11,7 +11,7 @@ I'm Sky, an Information System College Student at City College Angeles
 
 ## My Projects
 - Midterm Lab Task 1:
-[Data Cleaning and Preparation using EXCEL](Midterm%20Task/README.md)[https://github.com/skyordona/EDM-Ordona/tree/main/Midterm%20Tasks]
+[Data Cleaning and Preparation using EXCEL](https://github.com/skyordona/EDM-Ordona/tree/main/Midterm%20Tasks)
 
 - Midterm Lab Task 2:
-[Data Cleaning and Preparation using POWER QUERY](Midterm%20Task%202/README.md)(https://github.com/skyordona/EDM-Ordona/tree/main/Midterm%20Task%202)
+[Data Cleaning and Preparation using POWER QUERY](https://github.com/skyordona/EDM-Ordona/tree/main/Midterm%20Task%202)

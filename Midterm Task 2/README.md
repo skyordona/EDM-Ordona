@@ -156,7 +156,7 @@ in
 ```
 
 ### Here's the screenshot of my output after I started data cleaning (see screenshot)
-![screenshot](image/EDM%20Power%20Query.png)
+![screenshot](image/1111.png)
 
 ### Here's the screenshot of the Query Dependencies
 ![screenshot](image/EDM.png)

@@ -111,26 +111,9 @@ This portfolio demonstrates the process of data cleaning and preparation using P
 
 ### Here's the code proof for my cleaning of data
 ![screenshot](image/APPLIED.png)
-```
-let
-    Source = Excel.Workbook(File.Contents("C:\Users\COMLAB\Downloads\ZEB.xlsx"), null, true),
-    Sheet3_Sheet = Source{[Item="Sheet3",Kind="Sheet"]}[Data],
-    #"Promoted Headers" = Table.PromoteHeaders(Sheet3_Sheet, [PromoteAllScalars=true]),
-    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"index", Int64.Type}, {"Job Title", type text}, {"Salary Estimate", type text}, {"Job Description", type text}, {"Rating", type number}, {"Company Name", type text}, {"Location", type text}, {"Headquarters", type any}, {"Size", type any}, {"Founded", Int64.Type}, {"Type of ownership", type any}, {"Industry", type any}, {"Sector", type any}, {"Revenue", type any}, {"Competitors", type any}, {"Min Sal", Int64.Type}, {"MAX Sal", Int64.Type}, {"Role Type", type text}, {"Location Correction.1", type text}, {"Location Correction.2", type text}}),
-    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Location Correction.2", "State Abbreviations"}}),
-    #"Inserted Text Before Delimiter" = Table.AddColumn(#"Renamed Columns", "MinCompanySize", each Text.BeforeDelimiter([Size], " "), type text),
-    #"Inserted Text Between Delimiters" = Table.AddColumn(#"Inserted Text Before Delimiter", "MaxCompanySize", each Text.BetweenDelimiters([Size], " ", " ", 1, 0), type text),
-    #"Filtered Rows" = Table.SelectRows(#"Inserted Text Between Delimiters", each ([MaxCompanySize] <> "") and ([Location Correction.1] <> "") and ([Competitors] <> -1)),
-    #"Filtered Rows1" = Table.SelectRows(#"Filtered Rows", each ([Revenue] <> "Unknown / Non-Applicable")),
-    #"Split Column by Delimiter" = Table.SplitColumn(#"Filtered Rows1", "Company Name", Splitter.SplitTextByDelimiter("#(lf)", QuoteStyle.Csv), {"Company Name.1", "Company Name.2"}),
-    #"Changed Type1" = Table.TransformColumnTypes(#"Split Column by Delimiter",{{"Company Name.1", type text}, {"Company Name.2", type number}}),
-    #"Removed Columns" = Table.RemoveColumns(#"Changed Type1",{"Company Name.2", "Job Description"}),
-    #"Trimmed Text" = Table.TransformColumns(#"Removed Columns",{{"State Abbreviations", Text.Trim, type text}}),
-    #"Merged Queries" = Table.NestedJoin(#"Trimmed Text",{"State Abbreviations"},states,{"2-letter USPS"},"states",JoinKind.LeftOuter),
-    #"Expanded states" = Table.ExpandTableColumn(#"Merged Queries", "states", {"Full Name", "2-letter USPS"}, {"states.Full Name", "states.2-letter USPS"})
-in
-    #"Expanded states"
-```
+
+### Here's the code proof for my cleaning of data
+![screenshot](image/IMG_20250309_202238.jpg)
 
 ### Here's the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](image/1111.png)

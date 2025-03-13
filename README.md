@@ -14,3 +14,5 @@ I'm Sky, an Information System College Student at City College Angeles
 [Data Cleaning and Preparation using EXCEL](https://skyordona.github.io/Midterm-Task-1/)
 - Midterm Lab Task 2:
 [Data Cleaning and Preparation using POWER QUERY](https://skyordona.github.io/Midterm-Task-2/)
+- Midterm Lab Task 3:
+[Creating PIVOT TABLE and DASHBOARD](https://skyordona.github.io/Midterm-Task-3/)

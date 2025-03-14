@@ -44,10 +44,10 @@
 - Sal by State (see screenshot)
 - ![Image](https://github.com/user-attachments/assets/81b93d30-d68d-45f6-802d-44b18c795427)
 
-- Sector by size (see screenshot) 
+- Sector by Size (see screenshot) 
 - ![Image](https://github.com/user-attachments/assets/0c86cc1c-3731-47d4-bdc9-f452ddeb068d)
 
-- Sal by Sector (see screenshot)
+- Sector by Sal (see screenshot)
 - ![image](https://github.com/user-attachments/assets/ac089a05-69e6-4ac3-9897-768850fd5cfa)
 
 

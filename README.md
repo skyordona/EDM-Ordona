@@ -1,6 +1,6 @@
 # Sky Ordoña
 <p align="center">
-  <img width="460" height="300" src="(https://github.com/user-attachments/assets/4f8c5cfe-94c3-45df-9c2c-14a1f971f1d2)">
+  <img width="460" height="450" src="https://github.com/user-attachments/assets/22980281-2f76-4301-ac70-71a8cf2dd35e">
 </p>
 
 

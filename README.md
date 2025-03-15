@@ -1,5 +1,8 @@
 # Sky Ordoña
-![Image](https://github.com/user-attachments/assets/4f8c5cfe-94c3-45df-9c2c-14a1f971f1d2)
+<p align="center">
+  <img width="460" height="300" src="(https://github.com/user-attachments/assets/4f8c5cfe-94c3-45df-9c2c-14a1f971f1d2)">
+</p>
+
 
 # EDM-Ordona
 Compilation of EDM works

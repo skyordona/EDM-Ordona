@@ -27,4 +27,4 @@ I'm Sky, an Information System College Student at City College Angeles
 - Finals Lab Task 1:
 [Creating a Database Using MySQL Workbench](https://skyordona.github.io/Finals-Lab-Task-1/)
 - Finals Lab Task 2:
-[Transforming ER Model to Relational Tables]
+[Transforming ER Model to Relational Tables](https://skyordona.github.io/Finals-Lab-Task-2-/)

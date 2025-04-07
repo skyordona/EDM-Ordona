@@ -15,10 +15,16 @@ I'm Sky, an Information System College Student at City College Angeles
 - Senior High School: Malabanias Integrated School - Information Communication and Technology
 - Junior High School & Elementary: Malabanias Integrated School
 
-## My Projects
+## My Midterm Projects
 - Midterm Lab Task 1:
 [Data Cleaning and Preparation using EXCEL](https://skyordona.github.io/Midterm-Task-1/)
 - Midterm Lab Task 2:
 [Data Cleaning and Preparation using POWER QUERY](https://skyordona.github.io/Midterm-Task-2/)
 - Midterm Lab Task 3:
 [Creating PIVOT TABLE and DASHBOARD](https://skyordona.github.io/Midterm-Task-3/)
+
+## My Final Projects
+- Finals Lab Task 1:
+[Creating a Database Using MySQL Workbench]
+- Finals Lab Task 2:
+[Transforming ER Model to Relational Tables]

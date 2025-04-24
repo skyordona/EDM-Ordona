@@ -30,5 +30,5 @@ I'm Sky, an Information System College Student at City College Angeles
 [Transforming ER Model to Relational Tables](https://skyordona.github.io/Finals-Lab-Task-2-/)
 - Finals Lab Task 3:
 [Table Manipulation](https://skyordona.github.io/Finals-Lab-Task-3-/)
-
-
+- Finals Lab Task 3-1:
+[Using MySQL Clause](https://skyordona.github.io/Finals-Lab-Task-3-1/)

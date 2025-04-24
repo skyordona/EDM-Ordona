@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Ordoña - Street Fighter Style</title>
+    <style>
+        /* Street Fighter Theme */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://cdn.steamstatic.com/steamcommunity/public/images/items/1364780/d8a11446810c7ebce3ca74c5e7e2a2ce689f2f8c.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Loading Screen */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            animation: fadeOut 2s forwards;
+            animation-delay: 3s;
+        }
+
+        .loading-text {
+            color: #ff0;
+            font-size: 24px;
+            animation: blink 0.5s infinite;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: 5s;
+        }
+
+        h1, h2 {
+            color: #ff0;
+            text-shadow: 3px 3px #f00;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 2px solid #ff0;
+            padding-bottom: 10px;
+        }
+
+        .profile-pic {
+            border: 5px solid #ff0;
+            box-shadow: 0 0 20px #f00;
+            transition: transform 0.3s;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #ff0;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        li:hover {
+            transform: translateX(10px);
+            background: rgba(255, 0, 0, 0.3);
+        }
+
+        a {
+            color: #ff0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #f00;
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; visibility: hidden; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-text">LOADING...</div>
+    </div>
+
+    <div class="container">
+        <h1>Sky Ordoña</h1>
+        
+        <p align="center">
+            <img class="profile-pic" width="300" height="300" src="https://github.com/user-attachments/assets/22980281-2f76-4301-ac70-71a8cf2dd35e">
+        </p>
+
+        <h2>EDM-Ordona</h2>
+        <p>Compilation of EDM works</p>
+
+        <h2>About Me</h2>
+        <p>I'm Sky, an Information System College Student at City College Angeles</p>
+
+        <h2>Education</h2>
+        <ul>
+            <li>College: City College of Angeles - Bachelor of Science in Information System</li>
+            <li>Senior High School: Malabanias Integrated School - Information Communication and Technology</li>
+            <li>Junior High School & Elementary: Malabanias Integrated School</li>
+        </ul>
+
+        <h2>My Midterm Projects</h2>
+        <ul>
+            <li>
+                Midterm Lab Task 1:
+                <a href="https://skyordona.github.io/Midterm-Task-1/">Data Cleaning and Preparation using EXCEL</a>
+            </li>
+            <li>
+                Midterm Lab Task 2:
+                <a href="https://skyordona.github.io/Midterm-Task-2/">Data Cleaning and Preparation using POWER QUERY</a>
+            </li>
+            <li>
+                Midterm Lab Task 3:
+                <a href="https://skyordona.github.io/Midterm-Task-3/">Creating PIVOT TABLE and DASHBOARD</a>
+            </li>
+        </ul>
+
+        <h2>My Final Projects</h2>
+        <ul>
+            <li>
+                Finals Lab Task 1:
+                <a href="https://skyordona.github.io/Finals-Lab-Task-1/">Creating a Database Using MySQL Workbench</a>
+            </li>
+            <li>
+                Finals Lab Task 2:
+                <a href="https://skyordona.github.io/Finals-Lab-Task-2-/">Transforming ER Model to Relational Tables</a>
+            </li>
+            <li>
+                Finals Lab Task 3:
+                <a href="https://skyordona.github.io/Finals-Lab-Task-3-/">Table Manipulation</a>
+            </li>
+            <li>
+                Finals Lab Task 3-1:
+                <a href="https://skyordona.github.io/Finals-Lab-Task-3-1/">Using MySQL Clause</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -174,5 +174,81 @@
             </li>
         </ul>
     </div>
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .click-effect {
+            position: fixed;
+            pointer-events: none;
+            font-family: 'Comic Sans MS', cursive;
+            font-weight: bold;
+            font-size: 2.5em;
+            user-select: none;
+            animation: popAndFade 0.5s ease-out forwards;
+            z-index: 9999;
+            text-transform: uppercase;
+            filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
+        }
+
+        .effect-pow { color: #FF4136; }
+        .effect-bam { color: #0074D9; }
+        .effect-smash { color: #FFDC00; }
+        .effect-zap { color: #FF851B; }
+        .effect-zonk { color: #B10DC9; }
+        .effect-boom { color: #FF4136; }
+
+        @keyframes popAndFade {
+            0% {
+                transform: scale(0.5) rotate(-5deg);
+                opacity: 0;
+            }
+            25% {
+                transform: scale(1.2) rotate(5deg);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1) rotate(-2deg);
+            }
+            100% {
+                transform: scale(1.1) rotate(0);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.addEventListener('click', function(e) {
+            const effects = [
+                {text: 'POW!', class: 'effect-pow'},
+                {text: 'BAM!', class: 'effect-bam'},
+                {text: 'SMASH!', class: 'effect-smash'},
+                {text: 'ZAP!', class: 'effect-zap'},
+                {text: 'ZONK!', class: 'effect-zonk'},
+                {text: 'BOOM!', class: 'effect-boom'}
+            ];
+            
+            const randomEffect = effects[Math.floor(Math.random() * effects.length)];
+            const effect = document.createElement('div');
+            effect.className = `click-effect ${randomEffect.class}`;
+            effect.textContent = randomEffect.text;
+            
+            // Random slight offset for more dynamic feel
+            const offsetX = (Math.random() - 0.5) * 20;
+            const offsetY = (Math.random() - 0.5) * 20;
+            
+            effect.style.left = (e.clientX - 50 + offsetX) + 'px';
+            effect.style.top = (e.clientY - 50 + offsetY) + 'px';
+            
+            document.body.appendChild(effect);
+            
+            effect.addEventListener('animationend', function() {
+                effect.remove();
+            });
+        });
+    </script>
 </body>
 </html>
+

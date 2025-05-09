@@ -34,3 +34,7 @@ I'm Sky, an Information System College Student at City College Angeles
 [Using MySQL Clause](https://skyordona.github.io/Finals-Lab-Task-3-1/)
 - Finals Lab Task 5:
 [Views, Stored Procedures and Functions](https://skyordona.github.io/Finals-Lab-Task-5-/)
+- Finals Lab Task 5:
+[Views, Stored Procedures and Functions](https://skyordona.github.io/Finals-Lab-Task-5-/)
+- Finals Lab Task 5:
+[Views, Stored Procedures and Functions](https://skyordona.github.io/Finals-Lab-Task-5-/)

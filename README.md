@@ -35,5 +35,5 @@ I'm Sky, an Information System College Student at City College Angeles
 - Finals Lab Task 5:
 [Views, Stored Procedures and Functions](https://skyordona.github.io/Finals-Lab-Task-5-/)
 - Finals Lab Task 6:
-[MongoDBCRUD]()
+[MongoDBCRUD](https://skyordona.github.io/Finals-Lab-Task-6/)
 
